@@ -1,0 +1,223 @@
+/* Start main properties */
+:root {
+    --main-color: #000000BF;
+    --main-bg-color: #31A2CE;
+}
+/* End main properties */
+/* Start Intro*/
+.intro { 
+    color: var(--main-color);
+    background: url("../imgs/img01.png") center center;
+    background-position:fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+}
+
+.contact {
+    background-color: #FFFFFF;
+    padding: 1.25rem;
+    width: 45%;
+    box-shadow: 0px 10px 30px #00000029; 
+    position: absolute;
+    top: 8.125rem;
+    right: 4.375rem;
+    border-radius: 1.25rem;
+    padding: 2.5rem;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.contact  label{
+    display: block;
+}
+
+.contact input {
+    width: 100%;
+    background-color: #FAFAFA;
+    border: none;
+    padding: 0.938rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.contact input:focus {
+    outline-color: var(--main-bg-color);
+    caret-color: var(--main-bg-color);
+}
+
+.contact textarea {
+    width: 100%;
+    height: 5rem;
+    background-color: #FAFAFA;
+    border: none;
+    padding: 0.938rem;
+    margin-top: 0.625rem;
+}
+
+.contact textarea:focus {
+    outline-color: var(--main-bg-color);
+    caret-color: var(--main-bg-color);
+}
+
+.contact input[type=submit] {
+    display: block; 
+    background-color: var(--main-bg-color);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Start media query for Intro  */
+/* Start media query 320px and higher */
+@media (min-width: 320px) {
+    html {
+        font-size: 10px;
+    }
+    .intro {
+        height: 380px;
+    }
+    .contact {
+        padding: 1.25rem;
+        width: 50%;
+        top: 100px;
+        right: 20px;
+        border-radius: 0.8rem;
+        padding: 1.2rem;
+    }
+}
+/* End media query 320px and higher */
+/* Start media query 480px and higher */
+@media (min-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+    .intro {
+        height: 450px;
+    }
+    .contact {
+        padding: 1.25rem;
+        width: 45%;
+        top: 120px;
+        right: 50px;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+}
+/* End media query 480px and higher */
+/* Start media query 600px and higher */
+@media (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+    .intro {
+        height: 500px;
+    }
+    .contact {
+        padding: 1.25rem;
+        width: 45%;
+        top: 120px;
+        right: 50px;
+        border-radius: 1.2rem;
+        padding: 1.2rem;
+    }
+}
+/* End media query 600px and higher */
+/* Start media query 768px and higher */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .intro {
+        height: 550px;
+    }
+    .contact {
+        padding: 1.25rem;
+        width: 45%;
+        top: 120px;
+        right: 50px;
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+    }
+}
+/* End media query 768px and higher */
+/* Start media query 900px and higher */
+@media (min-width: 900px) {
+    html {
+        font-size: 18px;
+    }
+    .intro {
+        height: 650px;
+    }
+    .contact {
+        padding: 1.25rem;
+        width: 45%;
+        top: 120px;
+        right: 70px;
+        border-radius: 1.7rem;
+        padding: 1.7rem;
+    }
+}
+/* End media query 900px and higher */
+/* Start media query 1024px and higher */
+@media (min-width: 1024px) {
+    html {
+        font-size: 19px;
+    }
+    .intro {
+        height: 700px;
+    }
+    .contact {
+        padding: 1.25rem;
+        width: 45%;
+        top: 120px;
+        right: 70px;
+        border-radius: 1.7rem;
+        padding: 1.7rem;
+    }
+}
+/* End media query 1024px and higher */
+/* Start media query 1200px and higher */
+@media (min-width: 1200px) {
+    html {
+        font-size: 19px;
+    }
+    .intro {
+        height: 700px;
+    }
+    .contact {
+        padding: 1.25rem;
+        width: 45%;
+        top: 120px;
+        right: 70px;
+        border-radius: 1.25rem;
+        padding: 2.5rem;
+    }
+}
+/* End media query 1200px and higher */
+/* End media query for Intro  */
+/* End Intro*/
+/* Start Info section*/
+.info-section {
+    margin-top: 6.25rem;
+    background-image: url("../imgs/infobg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    border-right: solid 0.313rem #2196f3;
+}
+
+.blue {
+    color: #2196f3;
+    margin: 0.625rem 0.625rem 0.625rem 0;
+}
+
+.map img{
+    width: 95%;
+}
+/* Start media query for end section */
+

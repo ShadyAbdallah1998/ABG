@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- contact css file -->
+    <link rel="stylesheet" href="css/contact.css" />
+    <!-- reset all user agent addons  -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Start nav-bar -->
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="appBeneifits.html">مميزات التطبيق</a></li>
+            <li><a href="">أسئلة شائعة</a></li>
+            <li><a href="prices.html">الأسعار</a></li>
+            <li><a class="active" href="contact.html">تواصل معنا</a></li>
+            <li><a href="">المدونة</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End nav-bar -->
+    <!-- Start intro -->
+    <section class="intro">
+      <div class="container">
+        <div class="contact">
+          <form
+            action="/action_page.php"
+            method="get"
+            novalidate
+            target="_blank"
+          >
+            <h2>تواصل معنا الآن</h2>
+            <!-- Start user-id -->
+            <label for="username">الاسم</label>
+            <input id="username" type="text" name="user" required autofocus />
+            <!-- End user-id -->
+            <!-- Start user-phone -->
+            <label for="phoneNumber">رقم الموبايل</label>
+            <input
+              id="phoneNumber"
+              type="text"
+              name="phone"
+              min="11"
+              max="25"
+            />
+            <!-- End user-phone -->
+            <!-- Start user-mail -->
+            <label for="email">الايميل</label>
+            <input id="email" type="email" name="email" max="30" required />
+            <!-- End user-mail -->
+            <!-- Start user-message -->
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="ارسال" />
+            <!-- End user-message -->
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End intro -->
+    <!-- Start info section -->
+    <section class="info-section">
+      <div class="container">
+        <h2>معلومات الاتصال</h2>
+        <div class="info">
+          <div class="address">
+            <i class="fa-solid fa-location-dot blue"></i>
+            تقاطع كفر عصام مع شارع النحاس, طنطا, الغربية
+          </div>
+          <div class="time">
+            <i class="fa-solid fa-clock blue"></i>
+            من 9 الي 5 مساءا , مغلق الجمعه
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone blue"></i>
+            0111- 7873-883
+          </div>
+          <div class="email">
+            <i class="fa-solid fa-envelope blue"></i>
+            salesabg@gmail.com
+          </div>
+        </div>
+        <div class="map">
+          <img src="imgs/map.png" alt="map error">
+        </div>
+      </div>
+    </section>
+    <!-- End info section -->
+    <!-- End footer -->
+    <div class="end-line">
+      <div class="container">
+          <div class="rights-logos">
+              <div class="copyrights">
+                  <p> ABG© جميع الحقوق محفوظه  </p>
+              </div>
+              <div class="logos-redirect">
+                  <a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="google.com"><i class="fa-brands fa-google"></i></a>
+                  <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>

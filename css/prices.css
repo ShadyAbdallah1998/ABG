@@ -1,0 +1,218 @@
+/* Start main properties */
+html {
+    font-size: 16px;
+}
+
+:root {
+    --heading-color: #1F95D3;;
+    --main-color: #000000BF;
+}
+/* End main properties */
+/* Start prices parent */
+.prices {
+    background-image: url('../imgs/prices-bg.png');
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.price-holder {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.875rem;
+}
+
+.prices h3 {
+    color: #646464;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.prices h2 {
+    color: var(--heading-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.fa-check {
+    color: var(--heading-color);
+}
+
+.fa-x {
+    color: red;
+}
+
+/* button parent */
+.get-copy { 
+    display: flex;
+    justify-content: center;
+}
+
+.prices button {
+    background-color: var(--heading-color);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.313rem;
+    width: 80%;
+    padding: 0.625rem;
+    margin-bottom: 0.938rem;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.prices button:hover {
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid var(--heading-color);
+    margin: 0 0.625rem 0 0;
+    cursor: pointer;
+}
+
+.prices ul {
+    list-style: none;
+    padding: 0 1.875rem;
+}
+
+.prices ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.938rem;
+}
+/* End prices parent */
+/* Start price-items*/
+.price-item {
+    border: 2px solid #1F95D3;
+    background-color: white;
+    border-radius: 1.563rem;
+    width: 25%;
+}
+/* End price-items */
+/* Start media query */
+/* Start min width 320px */
+@media (min-width: 320px) {
+    html {
+        font-size: 8px;
+    }
+    .price-item {
+        width: 31%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* Start Media query 320px and higher */
+@media (min-width: 320px) {
+    html {
+        font-size: 8px;
+    }
+    .price-item {
+        width: 31%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* End Media query 320px and higher */
+/* Start Media query 480px and higher */
+@media (min-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+    .price-item {
+        width: 31%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* End Media query 480px and higher */
+/* Start Media query 600px and higher */
+@media (min-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+    .price-item {
+        width: 31%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* End Media query 600px and higher */
+/* Start Media query 768px and higher */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .price-item {
+        width: 31%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* End Media query 768px and higher */
+/* Start Media query 900px and higher */
+@media (min-width: 900px) {
+    html {
+        font-size: 18px;
+    }
+    .price-item {
+        width: 28%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* End Media query 900px and higher */
+/* Start Media query 1024px and higher */
+@media (min-width: 1024px) {
+    html {
+        font-size: 20px;
+    }
+    .price-item {
+        width: 28%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* End Media query 1024px and higher */
+/* Start Media query 1200px and higher */
+@media (min-width: 1200px) {
+    html {
+        font-size: 22px;
+    }
+    .price-item {
+        width: 28%;
+    }
+    .prices ul {
+        padding: 0 1.5rem;
+    }
+    .prices button {
+        font-size: 0.8rem;
+    }
+}
+/* End Media query 1200px and higher */
+/* End media query */
